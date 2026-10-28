@@ -214,7 +214,7 @@ def parse_args() -> argparse.Namespace:
                    help="ground-truth file, shared across clips")
     p.add_argument("--candidates", type=Path, default=Path("labels/candidates.csv"),
                    help="optional candidate frames to jump between with n/p")
-    p.add_argument("--track", type=Path, help="optional TrackNet *_ball.csv to draw the shuttle trail")
+    p.add_argument("--track", type=Path, help="optional shuttle track CSV (<clip>_shuttle.csv) to draw the shuttle trail")
     p.add_argument("--display-width", type=int, default=1280, help="max window width in pixels")
     return p.parse_args()
 
