@@ -1,0 +1,7 @@
+data/
+outputs/
+third_party/
+*.pt
+__pycache__/
+*.pyc
+.DS_Store
