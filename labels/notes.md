@@ -9,6 +9,7 @@ frames to find the contact frame, mark near/far; then play the whole
 clip to find any hits not in the candidate list.
 
 Totals: amogh_far_23 11, video3_03 14, video3_27 19 = 44 hits.
+Test clips: Best_Badminton_Rallies_1 32, top_view 6.
 Near/far alternate in every clip.
 
 ## Observed tracker failures (TrackNetV3, pretrained)
