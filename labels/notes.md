@@ -19,4 +19,4 @@ Near/far alternate in every clip.
 - video3_03 461: single-frame jump to x≈1220.
 - All clips: high serves leave the top of the frame briefly
 - All clips: after the rally the shuttle lies on the floor and is still "detected".
-- doubles: 18 hits, labelled blind from a frame-numbered copy of the video before viewing detections.
+
