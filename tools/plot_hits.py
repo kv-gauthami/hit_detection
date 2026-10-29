@@ -17,6 +17,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt  # noqa: E402
 import pandas as pd  # noqa: E402
 
+from matplotlib.ticker import MultipleLocator 
 from hitdet.config import DetectorConfig  # noqa: E402
 from hitdet.hits import detect_hits  # noqa: E402
 from hitdet.labels import load_clip_labels  # noqa: E402
@@ -46,6 +47,7 @@ def plot_clip(clip: str, track_csv: Path, labels: Path, fps: float, cfg: Detecto
     ax2b.set_ylabel("speed ratio")
     ax2b.set_ylim(0, 6)
     ax2.set_xlabel("frame")
+    ax2.xaxis.set_major_locator(MultipleLocator(20))
 
     for ax in (ax1, ax2):
         for f in gt:
