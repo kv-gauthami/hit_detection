@@ -2,3 +2,5 @@ numpy
 pandas
 opencv-python
 matplotlib
+parse
+pycocotools
